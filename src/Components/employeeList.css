@@ -1,0 +1,68 @@
+h1{
+    font-size: var(--font-size-26xl);
+    line-height: 140%;
+    color: var(--dark-blue-01);
+    font-family: var(--font-montserrat) ; 
+}
+
+.holder{
+margin: 115px 300px;
+display: flex;
+flex-direction: column;
+
+}
+
+.table-holder{
+    border-radius: var(--br-16xl);
+    border-color: #D5D5D5;
+    
+}
+
+.employee-table {
+    border: 3px solid #D5D5D5;
+    border-radius: var(--br-16xl);
+    padding: 100px 0px;
+    width: 100%;
+}
+.employee-table tbody tr {
+    height: 100px; /* Adjust the height as needed */
+  text-align: center;  
+}
+
+  .employee-table td {
+    vertical-align: middle;
+  }
+
+  /* CSS for modal overlay */
+.delete-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999; /* Adjust the z-index as needed to ensure it's on top of other content */
+}
+
+/* CSS for modal content */
+.delete-modal-content {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  max-width: 400px; /* Adjust the width as needed */
+  text-align: center;
+}
+
+/* Style for the buttons */
+.delete-modal-buttons {
+  margin-top: 20px;
+}
+
+/* Style for the Cancel button */
+.delete-modal-buttons button:nth-child(2) {
+  margin-left: 10px;
+}

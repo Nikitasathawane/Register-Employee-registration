@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Calibri:ital,wght@1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-montserrat: Montserrat;
+  --font-open-sans: "Open Sans";
+  --font-calibri: Calibri;
+  --font-roboto: Roboto;
+
+  /* font sizes */
+  --font-size-3xs: 10px;
+  --font-size-smi: 13px;
+  --font-size-xl: 20px;
+  --font-size-26xl: 45px;
+  --font-size-17xl: 36px;
+  --font-size-9xs: 4px;
+  --font-size-18xl: 37px;
+  --font-size-lg: 18px;
+  --font-size-5xl: 24px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-gray-100: #7d7d7d;
+  --color-gray-200: #041532;
+  --color-whitesmoke-100: #f8f8f8;
+  --grey-03: #7e98ba;
+  --color-lightslategray-100: #7d98ba;
+  --color-lightslategray-200: #8494b1;
+  --dark-blue-01: #314363;
+  --color-darkslategray-100: #3c3c3c;
+  --color-darkslategray-200: #263857;
+  --color-lightgray: #d5d5d5;
+  --color-darkslateblue-100: #25406d;
+  --color-darkslateblue-200: #1c3663;
+  --modal-black: #142a51;
+  --color-gainsboro: #e3e3e3;
+  --color-ghostwhite: #f8fbff;
+  --color-lavender-100: #dae2ef;
+  --color-lavender-200: #d0e3ff;
+  --color-aliceblue-100: #f0f5fb;
+  --grey-02: #eff5fc;
+  --color-aliceblue-200: #e9f2ff;
+  --color-steelblue-100: #6f8bbc;
+  --grey-04: #556e9a;
+  --color-royalblue: #346bd1;
+  --color-silver-100: #c5c6c6;
+  --color-silver-200: #c4c4c4;
+  --color-lightsteelblue: #a0b5d9;
+
+  /* Border radiuses */
+  --br-11xl: 30px;
+  --br-smi: 13px;
+  --br-base: 16px;
+  --br-16xl: 35px;
+  --br-95xl: 114px;
+  --br-65xl: 84px;
+  --br-5xs: 8px;
+  --br-xs: 12px;
+  --br-9xs: 4px;
+  --br-14xl: 33px;
+}
